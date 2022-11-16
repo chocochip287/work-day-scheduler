@@ -43,7 +43,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  
+  margin: 10px;
 }
 
 .hour {
@@ -73,6 +73,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  margin-left: 3px;
 }
 
 .saveBtn i:hover {
