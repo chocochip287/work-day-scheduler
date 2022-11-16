@@ -7,9 +7,19 @@ Todo:
 
 */
 
+// variable to reference button elements for event handling/loops
+
+var buttons = document.getElementsByTagName("button");
+
+// variable to reference text area elements for event handling/loops
+
+var textAreas = document.getElementsByTagName("textarea");
+
 // variable to hold today's date in the desired format
 
 var today = moment().format('dddd') + ", " + moment().format('MMMM Do') + ", " + moment().format('YYYY');
+
+// 
 
 // sets the text of the #currentDay paragraph to the current date
 
