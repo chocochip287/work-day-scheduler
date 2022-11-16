@@ -85,3 +85,8 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+#confirmation {
+  color: #d6d6d6;
+  text-align: center;
+}
